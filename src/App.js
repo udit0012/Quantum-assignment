@@ -8,6 +8,7 @@ import Register from './components/Register';
 
 
 function App() {
+  //added ENV file to git for your reference Thank you
   return (
     <BrowserRouter >
       <Routes >
