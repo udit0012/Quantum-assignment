@@ -1,0 +1,36 @@
+.login{
+    background: linear-gradient(to bottom, rgb(12, 85, 57),rgb(18, 165, 109));
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.loginBox{
+    background: rgb(19, 15, 15);
+    padding: 3rem 4rem;
+    border-radius: .5rem;
+}
+.formControl{
+    background-color:transparent;
+    border:none;
+    padding:0;
+    color:white;
+    outline: none;
+}
+.error{
+    max-width: 300px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent !important;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+    opacity: 0;
+}
